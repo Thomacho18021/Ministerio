@@ -12,14 +12,25 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.srcarrillo.ministerio.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_radio"
+        android:name="com.srcarrillo.ministerio.ui.radio.RadioFragment"
+        android:label="@string/menu_radio"
+        tools:layout="@layout/radio_fragment" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.srcarrillo.ministerio.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_programas"
+        android:name="com.srcarrillo.ministerio.ui.programas.ProgramasFragment"
+        android:label="@string/menu_programas"
+        tools:layout="@layout/programas_fragment" />
+    <fragment
+        android:id="@+id/nav_conocenos"
+        android:name="com.srcarrillo.ministerio.ui.conocenos.ConocenosFragment"
+        android:label="@string/menu_conocenos"
+        tools:layout="@layout/conocenos_fragment"/>
+    <fragment
+        android:id="@+id/nav_ayudanos"
+        android:name="com.srcarrillo.ministerio.ui.ayudanos.AyudanosFragment"
+        android:label="@string/menu_ayudanos"
+        tools:layout="@layout/ayudanos_fragment"/>
+
 </navigation>
