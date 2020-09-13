@@ -6,10 +6,27 @@
     <string name="nav_header_subtitle">Ministerio.p.a.chile@gmail.com</string>
     <string name="nav_header_desc">Navigation header</string>
     <string name="action_settings">Ajustes</string>
+    <string name="action_salir">Salir</string>
 
     <string name="menu_home">Inicio</string>
     <string name="menu_radio">Radio Restauración Lirquén</string>
     <string name="menu_programas">Programas</string>
     <string name="menu_conocenos">Conocenos</string>
     <string name="menu_ayudanos">Ayudanos</string>
+    <string name="title_activity_ajustes">Activity_ajustes</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
 </resources>
