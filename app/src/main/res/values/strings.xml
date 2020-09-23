@@ -13,6 +13,7 @@
     <string name="menu_programas">Programas</string>
     <string name="menu_conocenos">Conocenos</string>
     <string name="menu_ayudanos">Ayudanos</string>
+    <string name="menu_biblia">Biblia</string>
     <string name="title_activity_ajustes">Activity_ajustes</string>
 
     <!-- Preference Titles -->
@@ -29,4 +30,5 @@
     <string name="attachment_summary_on">Automatically download attachments for incoming emails
     </string>
     <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="title_activity_settings">SettingsActivity</string>
 </resources>

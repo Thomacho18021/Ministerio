@@ -1,5 +1,6 @@
 package com.srcarrillo.ministerio;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -71,12 +72,14 @@ public class MainActivity extends AppCompatActivity {
     public boolean onOptionsItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()) {
             case R.id.action_settings:
+                Intent ajustes = new Intent(this,AjustesActivity.class);
+                startActivity(ajustes);
                 Toast.makeText(this, "Ajustes", Toast.LENGTH_LONG).show();
                 return true;
             case R.id.action_salir:
-                System.exit(0);
+                finish();
                 return true;
         }
-        return false;
+        return super.onOptionsItemSelected(item);
     }
 }

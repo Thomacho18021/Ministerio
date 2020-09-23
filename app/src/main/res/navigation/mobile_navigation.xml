@@ -12,6 +12,12 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
+        android:id="@+id/nav_biblia"
+        android:name="com.srcarrillo.ministerio.ui.biblia.BibliaFragment"
+        android:label="@string/menu_biblia"
+        tools:layout="@layout/biblia_fragment"/>
+
+    <fragment
         android:id="@+id/nav_radio"
         android:name="com.srcarrillo.ministerio.ui.radio.RadioFragment"
         android:label="@string/menu_radio"

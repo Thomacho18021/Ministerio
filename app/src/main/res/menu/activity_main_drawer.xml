@@ -9,6 +9,10 @@
             android:icon="@drawable/puerta"
             android:title="@string/menu_home" />
         <item
+            android:id="@+id/nav_biblia"
+            android:icon="@drawable/riqueza"
+            android:title="@string/menu_biblia"/>
+        <item
             android:id="@+id/nav_radio"
             android:icon="@drawable/radio"
             android:title="@string/menu_radio" />
