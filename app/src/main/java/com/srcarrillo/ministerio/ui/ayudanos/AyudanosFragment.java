@@ -26,7 +26,6 @@ public class AyudanosFragment extends Fragment {
     private AyudanosViewModel mViewModel;
 
 
-
     public static AyudanosFragment newInstance() {
         return new AyudanosFragment();
     }
