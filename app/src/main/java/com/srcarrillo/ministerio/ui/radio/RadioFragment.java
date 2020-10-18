@@ -28,7 +28,7 @@ public class RadioFragment extends Fragment {
     private ImageView imagePlayPause;
     private TextView textCurrentTime, textTotalDuration;
     private SeekBar playerSeekBar;
-    private Handler handler = new Handler();
+    private Handler handler;
 
     public static RadioFragment newInstance() {
         return new RadioFragment();
@@ -41,9 +41,10 @@ public class RadioFragment extends Fragment {
         View view = inflater.inflate(R.layout.radio_fragment, container, false);
         imagePlayPause = view.findViewById(R.id.imagePlayPause);
         textCurrentTime = view.findViewById(R.id.textCurrentTime);
-        textTotalDuration = view.findViewById(R.id.textTotalDuration);
+        //textTotalDuration = view.findViewById(R.id.textTotalDuration);
         playerSeekBar = view.findViewById(R.id.playerSeekBar);
         mediaPlayer =new MediaPlayer();
+        handler = new Handler();
 
 
 
@@ -76,9 +77,9 @@ public class RadioFragment extends Fragment {
     }
     private void prepareMediaPlayer(){
         try {
-            mediaPlayer.setDataSource("https://ssl.xcast.com.br:12036/;");
+            mediaPlayer.setDataSource("stm3.miradio.com.es:12036");
             mediaPlayer.prepareAsync();
-            textTotalDuration.setText(milliSecondsToTimer(mediaPlayer.getDuration()));
+            //textTotalDuration.setText(milliSecondsToTimer(mediaPlayer.getDuration()));
 
         } catch (Exception exception){
             Toast.makeText(getActivity(), exception.getMessage() ,Toast.LENGTH_LONG).show();
